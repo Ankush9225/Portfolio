@@ -3,15 +3,18 @@ body{
 
     margin: 0%;
     text-align: center;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Sacramento', cursive;
+    
+    
 }
 
 h1{
     
     margin: 0px;
-   font-size:450%;
+   font-size:600%;
    color: #ffffff;
-   
+   font-weight: 20;
+  
     
 }
 
@@ -21,10 +24,12 @@ h2{
     margin: 0px;
    font-size:300%;
    color: #ffffff;
-   font-family:cursive;
+   font-family: 'Sacramento', cursive;
+   font-weight: 100;
    
     
 }
+
 p{
     margin: 0%;
     
@@ -42,7 +47,7 @@ p{
 
 
     background-color: #FC766AFF;
-    height: 600%;
+    height: 300%;
     position: relative;
     padding-top: 150px;
     width: 100%;
@@ -51,10 +56,15 @@ p{
 
 }
 
+.hey{
+
+    font-size: 350%;
+}
+
 .myskill{
 color: white;
-font-family: 'Tangerine', cursive;
-font-size: 500%;
+font-family: 'Sacramento', cursive;
+font-size: 550%;
 padding-top: 30px;
 
 }
@@ -80,8 +90,18 @@ padding-top: 30px;
 .img3{
 
 
-    width: 50%;
+    width: 52%;
+
     
+}
+@media(max-width:576px){
+    .img3{
+
+
+        display: none;
+    
+        
+    }
 }
 
 
